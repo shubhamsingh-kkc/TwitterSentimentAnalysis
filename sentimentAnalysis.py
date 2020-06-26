@@ -11,10 +11,10 @@ class windowDialog(QDialog):
         self.setGeometry(200, 200, 600, 800)
         self.createUi()
         self.show()
-        apiKey = 'mjyFFFrgVYKj6no6JZVeXHYIA'
-        apiSecretKey = 'KQAKw3UW8U6hc0lH3k6wNrHiKV6lii8BnvOgcw1IvJenwQF9N9'
-        accessToken = '2851478192-pezURci9XGcszWm9n4jh2SgBQLbXyart52UiiSp'
-        accessTokenSecret = 'PQAqFZldr3Fow0bky4qzDhawXBytcz6FKuTP57L8TF2yX'
+        apiKey = 'XXXXXXXXXXXXXXXXXXX'
+        apiSecretKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+        accessToken = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+        accessTokenSecret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
         try:
             self.auth = OAuthHandler(apiKey, apiSecretKey)
